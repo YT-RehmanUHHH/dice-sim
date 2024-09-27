@@ -1,0 +1,79 @@
+html{
+  background-color: purple;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#6260d2;
+  text-align: center;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 30px 75px;
+  height: 850px;
+  cursor: default;
+}
+
+#Screen {
+  background-color: black;
+  border: 2px solid purple;
+  width: 400px;
+  padding-left: 25px;
+  margin: 50px;
+}
+
+#WhereDiceRolls {
+  text-align: center;
+  border: 2px solid purple;
+  width: 400px;
+  padding-left: 25px;
+  margin: 50px;
+}
+
+select {
+  background-color: darkmagenta;
+  color: white;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid purple;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+select:hover {
+  background-color: white;
+  color: darkmagenta;
+  border: 2px solid purple;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button {
+  padding: 13px 26px;
+  margin: 10px;
+  border: 2px solid purple;
+  background: purple;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: white;
+  color: purple;
+}
+img {
+  width: 150px;
+  margin: 10px;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
